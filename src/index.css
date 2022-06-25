@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+:root {
+  --toolsh: 30pt;
+  --toolsh-add: 40pt;
+}
+.entriesPa {
+  margin-top: var(--toolsh-add);
+  margin-bottom: var(--toolsh);
+}
+.toolsPa {
+  height: var(--toolsh);
+  position: fixed; top: 0; width: 100%;
+  background-color: rgba(139, 139, 139, 0.849);
+  display: flex; flex-direction: row;
+}
+.buttClear { width: 55pt; }
+
+.entry {
+  display: flex; flex-direction: row;
+}
+
+.idx,.val,.ngayGD {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.idx { width: 25pt; font-size: 9pt; } 
+.ngayGD { font-size: 9pt; }
+
+.val {
+  font-weight: bolder;
+  width: 125pt; margin-inline: 11pt; 
+  text-align: end;
+}
+
+.toosmall { color: rgba(127, 127, 127, 0.443); } 
+.positive { color: rgb(0, 85, 57); } 
+.negative { color: rgb(201, 0, 101); }
+
+
+
+.dir {
+
+}
+.VPSA, .L337, .shopee, .vietin { width: 11pt; padding-left: 10pt; font-size: 9pt; }
+.VPSA { color: green; }
+.L337 { color: blue; }
+.shopee { color: orange; }
+
+.selectedEntry {
+  border-style: dashed;
+  border-width: 1;
+  border-color: rgba(124, 124, 124, 0.388);
+  background-color: rgba(124, 124, 124, 0.388);
+}
+
+.notePa {
+  display: flex; flex-direction: row; align-items: center;
+}
+.note, .mNote {
+  font-size: 9pt;
+}
+.mNote {
+  background-color: rgba(124, 124, 124, 0.482);
+  padding-inline: 7pt;
+  padding-block: 2pt;
+}
+
+
