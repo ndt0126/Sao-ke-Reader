@@ -260,7 +260,7 @@ const readVietin = (key, content) => {
 
 const readSessionKey = (key, content) => {
 
-  if (key == "vietin^vietin") {
+  if (key.includes("vietin")) {
     return readVietin(key, content);
   }
 
